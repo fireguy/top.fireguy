@@ -1,9 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>top.fireguy</groupId>
-	<artifactId>website</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -13,8 +12,7 @@
 		<version>1.5.9.RELEASE</version>
 	</parent>
 
-	<name>website</name>
-	<url>http://maven.apache.org</url>
+	<url>http://fireguy.top</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -70,5 +68,11 @@
 	</build>
 	<modules>
 		<module>website-base</module>
-	</modules>
+    <module>website-frontend</module>
+    <module>website-index</module>
+    <module>backend-user</module>
+    <module>backend-blog</module>
+  </modules>
+	<artifactId>backend</artifactId>
+	<name>backend</name>
 </project>

@@ -5,15 +5,15 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>top.fireguy</groupId>
-		<artifactId>website</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<artifactId>backend</artifactId>
 	</parent>
 	<groupId>top.fireguy</groupId>
-	<artifactId>website-base</artifactId>
+	<artifactId>backend-base</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>website-base</name>
-	<url>http://maven.apache.org</url>
+	<name>backend-base</name>
+	<url>http://www.fireguy.top</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
